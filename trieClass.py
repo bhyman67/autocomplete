@@ -108,7 +108,7 @@ class MyTrieNode:
             AtoCmpltns = []
         return AtoCmpltns    
 
-# remaining code for testing the trie class was provided in original trieClass.py file provided
+# remaining code for testing the trie class was provided in original trieClass.py file which was provided
 # by CU CS moodle (CSCI 3104)
 if (__name__ == '__main__'):
     t= MyTrieNode(True)
