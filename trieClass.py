@@ -11,8 +11,8 @@ import sys
 class MyTrieNode:
 
     def __init__(self, isRootNode):                                                    #
-        # Trie attributes (provided by the trieClass.py code)                          # All provided by
-        self.isRoot = isRootNode	                                                   # the CU CS moodle 
+        # Trie attributes (provided by the trieClass.py code)                          # provided by
+        self.isRoot = isRootNode	                                               # the CU CS moodle 
         self.isWordEnd = False # is this node a word ending node                       # (CSCI 3104)
         self.count = 0 # frequency count                                               #
         self.next = {} # Dictionary mappng each character from a-z to the child node   #
@@ -56,7 +56,7 @@ class MyTrieNode:
     def wordLookUp(self,w):
         # indicates the truth value of a character match
         noChar = False
-		# create an empty node
+        # create an empty node
         node = None
         n = len(w)
         i = 0        
