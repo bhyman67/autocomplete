@@ -21,7 +21,7 @@ class MyTrieNode:
     # ====== addWord() funct written/modified by BCH ======
     # -> just takes the word as an input and adds it to the trie
     def addWord(self,w):
-        assert(len(w) > 0) # only line from original triClass.py code!!!
+        assert(len(w) > 0) # only line from addWord() funct from original triClass.py code!!!
         n = len(w)
         # for each character in word		
         for i in range(0,n):
